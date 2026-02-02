@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Auburn High School | Auburn, MA</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="ambient-layer" aria-hidden="true">
+      <span class="float-orb orb-one"></span>
+      <span class="float-orb orb-two"></span>
+      <span class="float-orb orb-three"></span>
+      <span class="float-orb orb-four"></span>
+    </div>
+
+    <header class="site-header">
+      <nav class="nav">
+        <div class="logo">
+          <span class="logo-mark">A</span>
+          <div>
+            <p class="logo-title">Auburn High School</p>
+            <p class="logo-subtitle">Auburn, Massachusetts</p>
+          </div>
+        </div>
+        <button class="mobile-toggle" aria-label="Toggle navigation">
+          <span></span><span></span><span></span>
+        </button>
+        <ul class="nav-links" role="list">
+          <li><a href="#about">About</a></li>
+          <li><a href="#academics">Academics</a></li>
+          <li><a href="#student-life">Student Life</a></li>
+          <li><a href="#admissions">Admissions</a></li>
+          <li><a href="#news">News</a></li>
+          <li><a href="#contact" class="nav-cta">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero" id="home">
+        <div class="hero-content">
+          <p class="eyebrow">Prestigious public school • Future-forward learning</p>
+          <h1>Where bold minds grow, create, and lead in Auburn.</h1>
+          <p class="hero-subtitle">
+            Auburn High School blends rigorous academics, a vibrant arts culture, and a deeply
+            connected community to empower every student to thrive in a rapidly changing world.
+          </p>
+          <div class="hero-actions">
+            <a class="primary-btn" href="#admissions">Admissions</a>
+            <a class="ghost-btn" href="#academics">Explore Academics</a>
+            <a class="ghost-btn" href="#student-life">Student Life</a>
+          </div>
+          <div class="hero-stats" aria-label="School highlights">
+            <div class="stat-card">
+              <span class="stat-number" data-count="97" data-suffix="%">0</span>
+              <span class="stat-label">Graduation Rate</span>
+            </div>
+            <div class="stat-card">
+              <span class="stat-number" data-count="18" data-suffix="+">0</span>
+              <span class="stat-label">AP & Honors Pathways</span>
+            </div>
+            <div class="stat-card">
+              <span class="stat-number" data-count="52" data-suffix="+">0</span>
+              <span class="stat-label">Clubs & Athletics</span>
+            </div>
+          </div>
+        </div>
+        <div class="hero-visual" aria-hidden="true">
+          <div class="hero-card">
+            <p class="card-title">Innovation Studio</p>
+            <p>Student-led projects, robotics, and creative tech.</p>
+          </div>
+          <div class="hero-card">
+            <p class="card-title">Performing Arts</p>
+            <p>New theater showcases, orchestra, and dance.</p>
+          </div>
+          <div class="hero-card">
+            <p class="card-title">Wellness & Belonging</p>
+            <p>Advisories, mentorship, and student support.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section reveal" id="about">
+        <div class="section-head">
+          <h2>About Auburn High School</h2>
+          <p>
+            A proud legacy of excellence meets a future-ready curriculum. Auburn High School is a
+            community-centered, college-preparatory campus where every student is known, challenged,
+            and celebrated.
+          </p>
+        </div>
+        <div class="timeline">
+          <div class="timeline-item">
+            <span class="timeline-year">1956</span>
+            <div>
+              <h3>Roots in community</h3>
+              <p>Founded with a mission of access, opportunity, and local pride.</p>
+            </div>
+          </div>
+          <div class="timeline-item">
+            <span class="timeline-year">1998</span>
+            <div>
+              <h3>Academic expansion</h3>
+              <p>Introduced honors tracks and dedicated arts facilities.</p>
+            </div>
+          </div>
+          <div class="timeline-item">
+            <span class="timeline-year">2024</span>
+            <div>
+              <h3>Future-ready campus</h3>
+              <p>STEM labs, innovation studio, and wellness center renovations.</p>
+            </div>
+          </div>
+        </div>
+        <div class="values-grid">
+          <article class="value-card">
+            <h3>Mission</h3>
+            <p>We empower students to lead with curiosity, courage, and care.</p>
+          </article>
+          <article class="value-card">
+            <h3>Values</h3>
+            <p>Belonging, academic rigor, creativity, and civic responsibility.</p>
+          </article>
+          <article class="value-card">
+            <h3>Culture</h3>
+            <p>Small-town warmth with global ambition and opportunity.</p>
+          </article>
+          <article class="value-card">
+            <h3>Leadership</h3>
+            <p>Student voice at the center of every program and initiative.</p>
+          </article>
+        </div>
+        <div class="photo-grid">
+          <div class="photo-card">Innovation Lab</div>
+          <div class="photo-card">Community Commons</div>
+          <div class="photo-card">Performing Arts Center</div>
+        </div>
+      </section>
+
+      <section class="section reveal" id="academics">
+        <div class="section-head">
+          <h2>Academics with ambition</h2>
+          <p>
+            A balanced curriculum blending advanced coursework, interdisciplinary projects, and
+            personalized support.
+          </p>
+        </div>
+        <div class="card-grid">
+          <article class="info-card">
+            <h3>STEM & Innovation</h3>
+            <p>Engineering, robotics, biotech, and advanced computer science pathways.</p>
+            <button class="link-btn" type="button">Explore STEM</button>
+          </article>
+          <article class="info-card">
+            <h3>Humanities</h3>
+            <p>AP literature, history labs, global language immersion, and debate.</p>
+            <button class="link-btn" type="button">View Humanities</button>
+          </article>
+          <article class="info-card">
+            <h3>Arts & Design</h3>
+            <p>Visual arts, music, theater, and digital media studios.</p>
+            <button class="link-btn" type="button">Discover Arts</button>
+          </article>
+        </div>
+        <div class="expandable">
+          <button class="expand-trigger" type="button" aria-expanded="false">
+            View AP & Honors pathways
+          </button>
+          <div class="expand-body" aria-hidden="true">
+            <p>
+              18 honors and AP pathways across STEM, humanities, and the arts with mentorship,
+              capstone research, and dual-enrollment partnerships.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section reveal" id="student-life">
+        <div class="section-head">
+          <h2>Student life that feels like home</h2>
+          <p>
+            Clubs, athletics, and leadership opportunities that build confidence, friendships, and
+            community pride.
+          </p>
+        </div>
+        <div class="card-grid">
+          <article class="info-card">
+            <h3>Clubs & Organizations</h3>
+            <p>From robotics to literary magazine, every interest has a place to shine.</p>
+          </article>
+          <article class="info-card">
+            <h3>Athletics</h3>
+            <p>Competitive teams and wellness programs with a focus on balance.</p>
+          </article>
+          <article class="info-card">
+            <h3>Student Leadership</h3>
+            <p>Student council, peer mentoring, and civic engagement initiatives.</p>
+          </article>
+        </div>
+        <div class="events">
+          <h3>Upcoming events</h3>
+          <div class="event-list">
+            <div class="event-item">
+              <p class="event-date">Sep 12</p>
+              <p>Innovation Expo & Student Showcase</p>
+            </div>
+            <div class="event-item">
+              <p class="event-date">Oct 01</p>
+              <p>Homecoming Week & Community Night</p>
+            </div>
+            <div class="event-item">
+              <p class="event-date">Nov 18</p>
+              <p>Fall Performing Arts Festival</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section reveal" id="admissions">
+        <div class="section-head">
+          <h2>Admissions</h2>
+          <p>
+            We guide every family with transparency, warmth, and support. Take the next step toward
+            joining the Auburn High School community.
+          </p>
+        </div>
+        <div class="steps">
+          <article class="step-card">
+            <span>01</span>
+            <h3>Connect</h3>
+            <p>Schedule a tour or virtual info session with our admissions team.</p>
+          </article>
+          <article class="step-card">
+            <span>02</span>
+            <h3>Apply</h3>
+            <p>Submit enrollment forms and share student academic history.</p>
+          </article>
+          <article class="step-card">
+            <span>03</span>
+            <h3>Welcome</h3>
+            <p>Meet your advisor, choose courses, and join orientation.</p>
+          </article>
+        </div>
+        <div class="timeline admissions-timeline">
+          <div class="timeline-item">
+            <span class="timeline-year">Dec 1</span>
+            <div>
+              <h3>Applications open</h3>
+              <p>Virtual info nights and student-led campus tours begin.</p>
+            </div>
+          </div>
+          <div class="timeline-item">
+            <span class="timeline-year">Feb 15</span>
+            <div>
+              <h3>Priority deadline</h3>
+              <p>Families receive next-step guides and advising calls.</p>
+            </div>
+          </div>
+          <div class="timeline-item">
+            <span class="timeline-year">May 5</span>
+            <div>
+              <h3>Decision week</h3>
+              <p>Welcome packets, course selection, and community events.</p>
+            </div>
+          </div>
+        </div>
+        <div class="download-card">
+          <div>
+            <h3>Prospective family resources</h3>
+            <p>Download our curriculum guide, student handbook, and campus map.</p>
+          </div>
+          <button class="primary-btn" type="button">Download packet</button>
+        </div>
+      </section>
+
+      <section class="section reveal" id="news">
+        <div class="section-head">
+          <h2>News & Announcements</h2>
+          <p>Stories of achievement, innovation, and community impact.</p>
+        </div>
+        <div class="filter-bar" role="tablist" aria-label="Filter news">
+          <button class="filter-btn active" data-filter="all" role="tab">All</button>
+          <button class="filter-btn" data-filter="academics" role="tab">Academics</button>
+          <button class="filter-btn" data-filter="arts" role="tab">Arts</button>
+          <button class="filter-btn" data-filter="athletics" role="tab">Athletics</button>
+        </div>
+        <div class="news-grid">
+          <article class="news-card" data-category="academics">
+            <h3>Students earn statewide STEM innovation award</h3>
+            <p>Team Auburn showcased a solar-powered microgrid in the state expo.</p>
+          </article>
+          <article class="news-card" data-category="arts">
+            <h3>Fall theater season opens with modern classics</h3>
+            <p>The new performing arts lineup blends tradition with bold new voices.</p>
+          </article>
+          <article class="news-card" data-category="athletics">
+            <h3>Varsity teams open with record attendance</h3>
+            <p>Community spirit is high with student-led game-day experiences.</p>
+          </article>
+          <article class="news-card" data-category="academics">
+            <h3>AP scholars highlighted in statewide publication</h3>
+            <p>Students recognized for research, leadership, and service.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section reveal" id="contact">
+        <div class="section-head">
+          <h2>Contact Auburn High School</h2>
+          <p>We are here to help. Reach out and we will respond within two business days.</p>
+        </div>
+        <div class="contact-grid">
+          <form class="contact-form" aria-label="Contact form">
+            <div class="input-group">
+              <label for="name">Full name</label>
+              <input id="name" name="name" type="text" placeholder="Jordan Lee" required />
+            </div>
+            <div class="input-group">
+              <label for="email">Email address</label>
+              <input id="email" name="email" type="email" placeholder="jordan@email.com" required />
+            </div>
+            <div class="input-group">
+              <label for="topic">I am interested in</label>
+              <select id="topic" name="topic" required>
+                <option>Admissions</option>
+                <option>Academics</option>
+                <option>Student life</option>
+                <option>Community partnerships</option>
+              </select>
+            </div>
+            <div class="input-group">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" rows="4" placeholder="How can we help?" required></textarea>
+            </div>
+            <button class="primary-btn" type="submit">Send message</button>
+          </form>
+          <div class="contact-details">
+            <div>
+              <h3>Visit</h3>
+              <p>5 Auburn Street, Auburn, MA 01501</p>
+            </div>
+            <div>
+              <h3>Call</h3>
+              <p>(508) 555-0137</p>
+            </div>
+            <div>
+              <h3>Email</h3>
+              <p>hello@auburnhigh.edu</p>
+            </div>
+            <iframe
+              title="Auburn, MA map"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2951.2263895141914!2d-71.83545968454824!3d42.19484427919852!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89e40b07c02d36f9%3A0x9b0d58eb38a143e!2sAuburn%2C%20MA%2001501!5e0!3m2!1sen!2sus!4v1725000000000!5m2!1sen!2sus"
+              loading="lazy"
+            ></iframe>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div>
+        <p class="logo-title">Auburn High School</p>
+        <p class="logo-subtitle">Auburn, Massachusetts</p>
+      </div>
+      <div class="footer-links">
+        <a href="#about">About</a>
+        <a href="#academics">Academics</a>
+        <a href="#student-life">Student Life</a>
+        <a href="#admissions">Admissions</a>
+        <a href="#news">News</a>
+      </div>
+      <div class="social">
+        <a href="#" aria-label="Instagram">
+          <span>◎</span>
+        </a>
+        <a href="#" aria-label="YouTube">
+          <span>▶</span>
+        </a>
+        <a href="#" aria-label="LinkedIn">
+          <span>in</span>
+        </a>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
